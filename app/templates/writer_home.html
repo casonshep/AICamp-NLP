@@ -15,7 +15,8 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- JQUERY -->
-        <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}" defer=""></script>
+        <script class="u-script" type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}" defer="">
+        </script>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="{{ url_for('static',filename='/css/styles.css') }}" rel="stylesheet" />
     </head>
@@ -27,7 +28,7 @@
               <li class="sidebar-brand"><a href={{ url_for('home')}}>SwiftieBot</a></li>
               <li class="sidebar-nav-item"><a href={{ url_for('home')}}>Home </a></li>
               <li class="sidebar-nav-item"><a href={{ url_for('results')}}>Try It Out!</a></li>
-              <li class="sidebar-nav-item"><a href="https://github.com/casonshep/NLP_Module_TaylorSwift_Lyrics">Our Github</a></li>
+              <li class="sidebar-nav-item"><a href="https://github.com/casonshep/AICamp-NLP">Our Github</a></li>
               <li class="sidebar-nav-item"><a href="https://www.ai-camp.org">AI Camp</a></li>
               <li class="sidebar-nav-item"><a href="https://taylorswift.fandom.com/wiki/Taylor_Swift">Swiftipedia</a></li>
             </ul>
@@ -67,7 +68,7 @@
                     <div class="col-lg-3 col-md-6">
                         <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-settings"></i></span>
                         <h4><strong>Extensions</strong></h4>
-                        <p class="text-faded mb-0"> This projects is not perfect! Improvements could be made with respect to rhyme, meter, and even punctuation. Furthermore, this model could be trained with another artist to generate lyrical duets. More extensions to this project include deploying it to the web, predicting future Taylor Swift music, or even implementing music generation.</p>
+                        <p class="text-faded mb-0"> This project is not perfect! Improvements could be made with respect to rhyme, meter, and even punctuation. Furthermore, this model could be trained with another artist to generate lyrical duets. More extensions to this project may include deploying it to the web, predicting future Taylor Swift music, or even implementing music generation.</p>
                     </div>
                 </div>
             </div>
@@ -130,7 +131,7 @@
                         <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/AICampOfficial"><i class="icon-social-twitter"></i></a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white" href="https://github.com/minimaxir/aitextgen"><i class="icon-social-github"></i></a>
+                        <a class="social-link rounded-circle text-white" href="https://github.com/casonshep/AICamp-NLP"><i class="icon-social-github"></i></a>
                     </li>
                 </ul>
                 <p class="text-muted small mb-0">Copyright &copy; SwiftieBot AI Camp Team (Cason Shepard) May 2023 </p>
